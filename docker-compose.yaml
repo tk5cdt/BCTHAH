@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  mkdocs: 
+    image: squidfunk/mkdocs-material
+    container_name: mkdocs
+    volumes:
+      - ./:/docs
+    ports:
+      - 8000:8000
+    stdin_open: true
+    tty: true

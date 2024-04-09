@@ -1,5 +1,9 @@
 site_name: THAHDTDM
 
+nav:
+  - Home: index.md
+  - About: about.md
+
 theme:
   name: material
   palette:
@@ -15,7 +19,3 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-
-nav:
-  - Home: index.md
-  - About: about.md
